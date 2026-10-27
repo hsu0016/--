@@ -83,20 +83,30 @@ nav a:hover{
 .hero{
     position: relative;   
     width: 100%;
-    height: 120vh;
-    background:rgba(87, 117, 144, .2);
-
-    font-family: "Margarine", sans-serif;
+    height: 110vh;
+    background: rgba(87, 117, 144, .2);
 }
 
-.hero img{
+
+.hero-bg{
     width: 100%;
     height: 100%;
     object-fit:cover;
-    object-position:bottom;
+    object-position: center bottom;
+    display: block;
 }
 
-.h1 img{
+.hero-title{
+    position: absolute;
+    top: 40%;
+    left: 23%;
+    transform: translate(-50%, -50%);
+    width: 35%;
+    height: auto;
+    z-index: 2;
+}
+
+/*.h1 img{
     position: absolute;
     top: 30%;
     left: 50%;
@@ -112,7 +122,7 @@ nav a:hover{
 
     font-size: 150px;
     color: #1d3354;
-}
+}*/
 
 /*section*/
 section{
@@ -240,6 +250,11 @@ font-size: 1.3rem;
     flex-direction: column;
 }
 
+/*header*/
+header{
+    width: 100%;
+}
+
 /*logo*/
 .logo{
     text-align: center;
@@ -248,6 +263,9 @@ font-size: 1.3rem;
 .logo img{
     width: 30%;
     margin: auto;
+    position: relative;
+    top: 0;
+    left: 0;
 }
 
 /*nav*/
@@ -261,13 +279,24 @@ nav a{
 
 /*hero*/
 .hero{
-    height: 60vh;
+    height: 80vh;
+    overflow: hidden;
 }
 
-.hero h1{
-    top:40%;
-    font-size: 60px;
+.hero-bg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: right 20% bottom 30%;
 }
+
+.hero-title {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: auto;
 
 /*card*/
 .card{
