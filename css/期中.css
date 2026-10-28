@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Margarine&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Risque&display=swap');
 body{
     padding: 0;
     margin: 0;
     font-size: 1.2rem;
     color:#1d3354;
     background: #e9fff9;
-    font-family: "Roboto", sans-serif;
+    font-family: "Risque", serif;
 }
 
 ::selection{
@@ -54,7 +54,7 @@ header{
 .logo img{
     width: 100%;
     margin: auto;
-    background: rgba(255, 255, 255, .5);
+    
 	border-radius: 50%;
 }
 
@@ -112,17 +112,38 @@ nav a:hover{
     left: 50%;
     transform: translate(-50%, -50%);
     width: 60%;
-}
+}*/
 
-.hero h1{
+.hero h2{
     position: absolute;
-    top:30%;
-	left:50%;
+    top:55%;
+	left: 30%;
 	transform: translate(-50%, -50%);
 
-    font-size: 150px;
+    
+    font-size: 35px;
     color: #1d3354;
-}*/
+}
+
+.hero p{
+    position: absolute;
+    top:65%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    
+    font-size: 20px;
+    color: #1d3354;
+}
+
+.hero h3{
+    position: absolute;
+    top:75%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    
+    font-size: 25px;
+    color: #1d3354;
+}
 
 /*section*/
 section{
