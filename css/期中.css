@@ -84,7 +84,7 @@ nav a{
     padding: 30px 10px;
     font-weight: bold;/*粗體*/
     text-align: center;/*置中*/
-    align-items: left;
+    align-items: left;/*靠左對齊*/
 }
 
 nav a:hover{
@@ -236,7 +236,7 @@ article:hover{
 }
 
 .a_left img{
-	float:left;
+	/*float:left;*/
     width: 100%;
     height:100%;
 	object-fit: cover;
