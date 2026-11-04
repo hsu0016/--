@@ -27,9 +27,9 @@ a:hover{
 
 /*header*/
 header{
-    position: relative;
+    position: fixed;
     width: 100%;
-    background: #1d3354;
+    background: #1d3354c5;
     height: auto;
     z-index: 200000;
    
@@ -39,7 +39,7 @@ header{
 /*menu*/
 .menu{
     width: 95%;
-    margin: 15px auto;
+    margin: 10px auto;
 
     display: flex;
     flex-direction: row;/*橫向排列*/
@@ -93,6 +93,7 @@ nav a{
 nav a:hover{
     text-decoration: underline;
 }
+
 
 
 /*section*/
